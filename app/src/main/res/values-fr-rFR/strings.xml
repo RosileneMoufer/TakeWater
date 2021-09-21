@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Bois de l\'eau</string>
+    <string name="see_staticts">Voir les statistiques</string>
+    <string name="statistics">Statistiques</string>
+    <string name="save_settings">Enregistrer les paramètres</string>
+    <string name="settings">Paramètres</string>
+
+    <string name="tab_text_1">Aujourd\'hui</string>
+    <string name="tab_text_2">Hier</string>
+    <string name="tab_text_3">Tout</string>
+
+    <string name="date">Date</string>
+    <string name="schedule">Programme</string>
+    <string name="hour">heure</string>
+    <string name="minute">minute</string>
+    <string name="quantidade">La quantité</string>
+
+    <string name="excluido_com_sucesso">Supprimé avec succès!</string>
+    <string name="excluido_sem_sucesso">Impossible de supprimer.</string>
+    <string name="remind">On se souviendra de vous dans 10 minutes.</string>
+
+    <string name="couldnt_save_changes">Impossible d\'enregistrer les modifications.</string>
+    <string name="choose_an_option">Choisissez une option.</string>
+
+    <string name="average">Moyenne</string>
+    <string name="total">Le total</string>
+
+    <string name="there_is_no_data">Il n\'y a pas de données.</string>
+
+    <string name="every_time_you_drank_water_today">Chaque fois que tu as bu de l\'eau aujourd\'hui</string>
+    <string name="every_time_you_drank_water_yestarday">Chaque fois que tu as bu de l\'eau hier</string>
+    <string name="every_time_you_drank_water">Chaque fois que tu as bu de l\'eau.</string>
+
+    <string name="its_time_to_drink_some_water">Il est temps de boire de l\'eau.</string>
+    <string name="drink">Boisson</string>
+    <string name="put_off">Repousser</string>
+
+    <string name="notification">Notification</string>
+    <string name="enable_alarm_and_notification">Activer l\'alarme et la notification</string>
+    <string name="enable_notification_only">Activer la notification uniquement</string>
+    <string name="do_not_activate_alarm_or_notification">N\'activez pas la notification ou l\'alarme</string>
+    <string name="notification_interval_time">Intervalle de temps de notification</string>
+    <string name="amount_of_water">Quantité d\'eau</string>
+    <string name="value_in_ml">Valeur en ML</string>
+
+    <string-array name="periodo_estatistica">
+        <item>3 derniers jours</item>
+        <item>7 derniers jours</item>
+        <item>30 derniers jours</item>
+        <item>90 derniers jours</item>
+        <item>180 derniers jours</item>
+        <item>270 derniers jours</item>
+        <item>360 derniers jours</item>
+    </string-array>
+
+    <string-array name="array_time_interval">
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+        <item>1 h</item>
+        <item>2 h</item>
+        <item>3 h</item>
+    </string-array>
+
+    <string name="no_ads">• Pas de publicité</string>
+    <string name="buy_now">Acheter maintenant</string>
+    <string name="developed">distribué par Romoufer</string>
+    <string name="version">version 1.0</string>
+    <string name="this_version_is_pro">Cette version est PRO.</string>
+
+</resources>

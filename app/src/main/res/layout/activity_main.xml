@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorActionBar"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorActionBar"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_setting"
+            app:layout_constraintTop_toTopOf="@+id/txtNameTitle" />
+
+        <TextView
+            android:id="@+id/txtNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnUpgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorActionBar"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_upgrade_24"
+            app:layout_constraintTop_toTopOf="@+id/txtNameTitle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scroll_view_option_btns"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorGreenLight"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/layoutTitle"
+        app:layout_goneMarginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:padding="10dp"
+            android:text="@string/tab_text_1"
+            android:textColor="@drawable/item_name_menu"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_yestarday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:padding="10dp"
+            android:text="@string/tab_text_2"
+            android:textColor="@drawable/item_name_menu"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:padding="10dp"
+            android:text="@string/tab_text_3"
+            android:textColor="@drawable/item_name_menu"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_view_option_btns">
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorBlue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/layout_btn_add_new_medicine"
+        app:layout_constraintTop_toBottomOf="@+id/layout_text_description">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_btn_add_new_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <Button
+                android:id="@+id/btn_see_statistics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_principal"
+                android:text="@string/see_staticts"
+                android:textColor="@drawable/name_button_action" />
+
+            <ImageButton
+                android:id="@+id/btn_add_more_water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="4"
+                android:background="@color/colorWhite"
+                android:src="@mipmap/ic_add_water"
+                android:text="@string/see_staticts"
+                android:textColor="@drawable/name_button_action" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                android:layout_centerHorizontal="true">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

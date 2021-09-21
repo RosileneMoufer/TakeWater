@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Beba água</string>
+    <string name="see_staticts">Ver estatísticas</string>
+    <string name="statistics">Estatísticas</string>
+    <string name="save_settings">Salvar configurações</string>
+    <string name="settings">Configurações</string>
+
+    <string name="tab_text_1">Hoje</string>
+    <string name="tab_text_2">Ontem</string>
+    <string name="tab_text_3">Todos</string>
+
+    <string name="date">Data</string>
+    <string name="schedule">Horário</string>
+    <string name="hour">h</string>
+    <string name="minute">min</string>
+    <string name="quantidade">Quantidade</string>
+
+    <string name="excluido_com_sucesso">Excluído com sucesso!</string>
+    <string name="excluido_sem_sucesso">Não foi possível excluir.</string>
+    <string name="remind">Você será lembrado daqui a 10 minutos.</string>
+
+    <string name="couldnt_save_changes">Não foi possível salvar as alterações.</string>
+    <string name="choose_an_option">Escolha uma opção.</string>
+
+    <string name="average">Média</string>
+    <string name="total">Total</string>
+
+    <string name="there_is_no_data">Não existe dados.</string>
+
+    <string name="every_time_you_drank_water_today">Todas as vezes que você bebeu água hoje</string>
+    <string name="every_time_you_drank_water_yestarday">Todas as vezes que você bebeu água ontem</string>
+    <string name="every_time_you_drank_water">Todas as vezes que você bebeu água.</string>
+
+    <string name="its_time_to_drink_some_water">Está na hora de beber água.</string>
+    <string name="drink">Beber</string>
+    <string name="put_off">Adiar</string>
+
+    <string name="notification">Notificação</string>
+    <string name="enable_alarm_and_notification">Habilitar alarme e notificação</string>
+    <string name="enable_notification_only">Habilitar apenas notificação</string>
+    <string name="do_not_activate_alarm_or_notification">Não habilitar notificação nem alarme</string>
+    <string name="notification_interval_time">Intervalo de tempo de notificação</string>
+    <string name="amount_of_water">Quantidade de água</string>
+    <string name="value_in_ml">Valor em ML</string>
+
+    <string-array name="periodo_estatistica">
+        <item>últimos 3 dias</item>
+        <item>últimos 7 dias</item>
+        <item>últimos 30 dias</item>
+        <item>últimos 90 dias</item>
+        <item>últimos 180 dias</item>
+        <item>últimos 270 dias</item>
+        <item>últimos 360 dias</item>
+    </string-array>
+
+    <string-array name="array_time_interval">
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+        <item>1 h</item>
+        <item>2 h</item>
+        <item>3 h</item>
+    </string-array>
+
+    <string name="no_ads">• Sem propagandas</string>
+    <string name="buy_now">Comprar agora</string>
+    <string name="developed">distribuído por Romoufer</string>
+    <string name="version">versão 1.0</string>
+    <string name="this_version_is_pro">Esta versão é PRO.</string>
+
+</resources>
+
+
