@@ -14,3 +14,6 @@ Nesta aplicação, o usuário pode definir a quantidade de ML de água que desej
 </p>
 
 ![i843](https://user-images.githubusercontent.com/9465347/175081025-5b63a39d-c48f-4877-bbce-91c4efeda33a.png)
+
+<p>O aplicativo está disponível na loja da Google (Play Store)</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.romoufer.takewater">Link para acessar ir ao aplicativo na loja.</a></p>
